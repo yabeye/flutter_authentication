@@ -8,6 +8,9 @@ import 'package:flutter_authentication/components/rounded_button.dart';
 import 'package:flutter_authentication/constants.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+// Body widget for the welcome screen
+// /!\ Dont confuse with the other body.dart
+
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
 

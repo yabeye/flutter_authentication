@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// This widget shapes all buttons in the application
+
 class RoundedButton extends StatelessWidget {
   final String text;
   final Function press;
