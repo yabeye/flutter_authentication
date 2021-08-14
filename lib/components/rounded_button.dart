@@ -14,29 +14,33 @@ class RoundedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
-      onPressed: () {
-        // ignore: unnecessary_statements
-        this.press();
-      },
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(30),
-        child: Container(
-          width: 300,
-          alignment: Alignment.center,
-          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 13),
-          color: this.bgColor,
-          child: Text(
-            this.text,
-            style:
-                TextStyle(color: this.textColor, fontWeight: FontWeight.w600),
+    return Container(
+      margin: EdgeInsets.symmetric(vertical: 8),
+      child: TextButton(
+        onPressed: () {
+          // ignore: unnecessary_statements
+          this.press();
+        },
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(30),
+          child: Container(
+            width: 300,
+            alignment: Alignment.center,
+            padding: EdgeInsets.symmetric(horizontal: 100, vertical: 13),
+            color: this.bgColor,
+            child: Text(
+              this.text,
+              style:
+                  TextStyle(color: this.textColor, fontWeight: FontWeight.w600),
+            ),
           ),
         ),
+        style: TextButton.styleFrom(
+            padding: EdgeInsets.all(0),
+            textStyle: TextStyle(
+              fontSize: 25,
+            )),
       ),
-      style: TextButton.styleFrom(
-          textStyle: TextStyle(
-        fontSize: 20,
-      )),
     );
   }
 }
