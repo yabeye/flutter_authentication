@@ -1,16 +1,16 @@
-# flutter_authentication
+# Flutter_authentication
 
-A new Flutter project.
+Flutter Authentication UI 
 
-## Getting Started
+## demo 
 
-This project is a starting point for a Flutter application.
+### Home page 
+<img src="https://github.com/yabeye/flutter_authentication/blob/master/screenshots/home.png" alt="" width="300" height="620" />
 
-A few resources to get you started if this is your first Flutter project:
+### Login page
+<img src="https://github.com/yabeye/flutter_authentication/blob/master/screenshots/login.png" alt="" width="300" height="620" />
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Signup page
+<img src="https://github.com/yabeye/flutter_authentication/blob/master/screenshots/signup.png" alt="" width="300" height="620" />
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+by @yabeye github contribution Aug, 2021.
